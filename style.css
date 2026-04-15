@@ -1,66 +1,55 @@
-body
-{
- background-color:yellow;
-}
-.content{
-    width: 90%;
-    margin: auto;
-    height: 420px;
-    padding: 0.1px;
-    background: #fff;
-    color: #333;
-}
+<div class="content">
+  <div class="jarak">
 
-.border{
-    border: 2px solid #4887b9;
-    margin-top: 1pc;
-    padding-bottom: 1pc;
-    padding-left: 2pc;
-    padding-right: 2pc;
-}
+    <!-- kiri -->
+    <div class="kiri">
 
-.kiri{
-    width: 70%;
-    float: left;
-    margin: auto;
-    background: #fff;
-    height: 420px;
-}
+      <!-- blog -->
+      <div class="border">
+        <div class="jarak">
+          <h3>Lorem Ipsum</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing</p>
+          <button class="btn">Read More ..</button>
+        </div>
+      </div>
+      <!-- end blog -->
 
-.kanan{
-    width: 30%;
-    float: left;
-    margin: auto;
-    background: #fff;
-    height: 420px;
-}
+      <!-- blog -->
+      <div class="border">
+        <div class="jarak">
+          <h3>Lorem Ipsum</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing</p>
+          <button class="btn">Read More ..</button>
+        </div>
+      </div>
+      <!-- end blog -->
 
-.undecor{
-    text-decoration: none;
-}
+    </div>
+    <!-- end kiri -->
 
-.footer{
-    width: 90%;
-    margin: auto;
-    height: 40px;
-    line-height: 40px;
-    background: #417aa8;
-    color: #fff;
-    margin-bottom: 1pc;
-}
-body{
-    background:#f3f3f3;
-    color:#333;
-    width:100%;
-    font-family:sans-serif;
-    margin:0 auto;
-}
+    <!-- kanan -->
+    <div class="kanan">
+      <div class="jarak">
+        <h3>CATEGORY</h3>
+        <hr>
 
-.header{
-    width:90%;
-    margin:auto;
-    height:120px;
-    line-height:120px;
-    background:#417aa8;
-    color:#fff;
-}
+        <p><a href="#" class="undecor">HTML</a></p>
+        <p><a href="#" class="undecor">CSS</a></p>
+        <p><a href="#" class="undecor">BOOTSTRAP</a></p>
+        <p><a href="#" class="undecor">PHP</a></p>
+        <p><a href="#" class="undecor">MYSQL</a></p>
+        <p><a href="#" class="undecor">Jquery</a></p>
+        <p><a href="#" class="undecor">Ajax</a></p>
+      </div>
+    </div>
+    <!-- end kanan -->
+
+  </div>
+</div>
+
+<!-- footer -->
+<div class="footer">
+  <div class="jarak">
+    <p>copyright 2021 codekop all reserved</p>
+  </div>
+</div>
