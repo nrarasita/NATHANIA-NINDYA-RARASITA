@@ -1,40 +1,91 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
-  <head>
-     <title>DERITA</title>
-     <link rel="stylesheet" href="style.css">
-  </head>
-  <body >
-    <div class="header">
-      <div class="jarak">
-      <h2>belajar membuat layout dengan HTML dan CSS</h2>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Blog Layout</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #f4f4f4;
+        }
+
+        .content {
+            width: 1000px;
+            margin: auto;
+        }
+
+        .jarak {
+            padding: 20px;
+        }
+
+        .kiri {
+            width: 65%;
+            float: left;
+        }
+
+        .kanan {
+            width: 30%;
+            float: right;
+        }
+
+        .border {
+            background: white;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .btn {
+            background: blue;
+            color: white;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .footer {
+            clear: both;
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="content">
+    <div class="jarak">
+
+        <div class="kiri">
+            <div class="border">
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem Ipsum is simply dummy text.</p>
+                <button class="btn">Read More</button>
+            </div>
+
+            <div class="border">
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem Ipsum is simply dummy text.</p>
+                <button class="btn">Read More</button>
+            </div>
+        </div>
+
+        <div class="kanan">
+            <h3>Category</h3>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Bootstrap</p>
+            <p>PHP</p>
+        </div>
+
     </div>
-      <div class="menu">
-       <ul>
-         <li><a href="index.html">Home</a></li>
-         <li><a href="about.html">About</a></li>
-         <li><a href="#">Blog</a></li>
-         <li><a href="#">Contact</a></li>
-       </ul>
-      </div>
-         <h3>HTML</h3>
+</div>
 
-         <p>HTML atau hypertext markupn language blablabla</p>
-         <button>selengkapnya....</button>
-         <p>CSS atau cascading style sheet</p>
-         <button>selengkapnya....</button>
+<div class="footer">
+    <p>copyright 2021</p>
+</div>
 
-
-       <h3>Category</h3>
-       <ul>
-         <p><a href="#" >HTML</a></p>
-         <p><a href="#" >NO CSS</a></p>
-         <p><a href="#" >BOOTSTRAP</a></p>
-         <p><a href="#" >PHP</a></p>
-         <p><a href="#" >CSS</a></p>
-         <p><a href="#" >python</a></p>
-         <p><a href="#" >javascript</a></p>
-       </ul> 
-          <p>copyright @2026 DELAYOTA all reserved</p>
-      </body>
-     </html>
+</body>
+</html>
