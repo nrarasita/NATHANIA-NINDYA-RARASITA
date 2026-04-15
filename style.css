@@ -1,55 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Blog Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+
+        .content {
+            width: 1000px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .jarak {
+            padding: 20px;
+        }
+
+        /* Kiri (Blog) */
+        .kiri {
+            width: 65%;
+            float: left;
+        }
+
+        .border {
+            background: #fff;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        .border h3 {
+            margin-top: 0;
+        }
+
+        .btn {
+            padding: 8px 12px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+
+        /* Kanan (Sidebar) */
+        .kanan {
+            width: 30%;
+            float: right;
+        }
+
+        .kanan a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .kanan a:hover {
+            color: #007BFF;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+        }
+
+        /* Footer */
+        .footer {
+            clear: both;
+            background: #333;
+            color: white;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
 <div class="content">
-  <div class="jarak">
+    <div class="jarak">
 
-    <!-- kiri -->
-    <div class="kiri">
+        <!-- kiri -->
+        <div class="kiri">
 
-      <!-- blog -->
-      <div class="border">
-        <div class="jarak">
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing</p>
-          <button class="btn">Read More ..</button>
+            <!-- blog -->
+            <div class="border">
+                <div class="jarak">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+                    <button class="btn">Read More ..</button>
+                </div>
+            </div>
+
+            <!-- blog -->
+            <div class="border">
+                <div class="jarak">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+                    <button class="btn">Read More ..</button>
+                </div>
+            </div>
+
         </div>
-      </div>
-      <!-- end blog -->
 
-      <!-- blog -->
-      <div class="border">
-        <div class="jarak">
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing</p>
-          <button class="btn">Read More ..</button>
+        <!-- kanan -->
+        <div class="kanan">
+            <div class="jarak">
+                <h3>CATEGORY</h3>
+                <hr>
+                <p><a href="#">HTML</a></p>
+                <p><a href="#">CSS</a></p>
+                <p><a href="#">BOOTSTRAP</a></p>
+                <p><a href="#">PHP</a></p>
+                <p><a href="#">MYSQL</a></p>
+                <p><a href="#">Jquery</a></p>
+                <p><a href="#">Ajax</a></p>
+            </div>
         </div>
-      </div>
-      <!-- end blog -->
 
     </div>
-    <!-- end kiri -->
-
-    <!-- kanan -->
-    <div class="kanan">
-      <div class="jarak">
-        <h3>CATEGORY</h3>
-        <hr>
-
-        <p><a href="#" class="undecor">HTML</a></p>
-        <p><a href="#" class="undecor">CSS</a></p>
-        <p><a href="#" class="undecor">BOOTSTRAP</a></p>
-        <p><a href="#" class="undecor">PHP</a></p>
-        <p><a href="#" class="undecor">MYSQL</a></p>
-        <p><a href="#" class="undecor">Jquery</a></p>
-        <p><a href="#" class="undecor">Ajax</a></p>
-      </div>
-    </div>
-    <!-- end kanan -->
-
-  </div>
 </div>
 
-<!-- footer -->
 <div class="footer">
-  <div class="jarak">
-    <p>copyright 2021 codekop all reserved</p>
-  </div>
+    <div class="jarak">
+        <p>copyright 2021 codekop all reserved</p>
+    </div>
 </div>
+
+</body>
+</html>
