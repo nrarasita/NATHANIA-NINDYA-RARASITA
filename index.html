@@ -1,91 +1,69 @@
-<<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Simple Blog Layout</title>
-    <style>
-        body {
-            font-family: Arial;
-            margin: 0;
-            background: #f4f4f4;
-        }
-
-        .content {
-            width: 1000px;
-            margin: auto;
-        }
-
-        .jarak {
-            padding: 20px;
-        }
-
-        .kiri {
-            width: 65%;
-            float: left;
-        }
-
-        .kanan {
-            width: 30%;
-            float: right;
-        }
-
-        .border {
-            background: white;
-            margin-bottom: 20px;
-            padding: 15px;
-            border-radius: 8px;
-        }
-
-        .btn {
-            background: blue;
-            color: white;
-            padding: 8px;
-            border: none;
-            border-radius: 5px;
-        }
-
-        .footer {
-            clear: both;
-            background: black;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
-</head>
-<body>
-
-<div class="content">
-    <div class="jarak">
-
-        <div class="kiri">
-            <div class="border">
-                <h3>Lorem Ipsum</h3>
-                <p>Lorem Ipsum is simply dummy text.</p>
-                <button class="btn">Read More</button>
+  <head>
+     <title>DERITA</title>
+     <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="jarak">
+      <h2>Belajar Membuat Layout dengan HTML dan CSS</h2>
+    </div>
+    </div>
+      <div class="menu">
+       <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="#">Blog</a></li>
+         <li><a href="#">Contact</a></li>     
+       </ul>
+    </div>
+    
+      <div class="content">
+   <div class="jarak">
+         <!-- kiri -->
+      <div class="kiri">
+         <!-- blog -->
+           <div class="border">
+              <div class="jarak">
+                  <h3>Lorem Ipsum</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing</p>
+                  <button class="btn">Read More ..</button>
+              </div>
+          </div>
+          <!-- end blog -->
+        <!-- blog -->
+          <div class="border">
+             <div class="jarak">
+                 <h3>Lorem Ipsum</h3>
+                 <p>Lorem Ipsum is simply dummy text of the printing</p>
+                 <button class="btn">Read More ..</button>
+                </div>
             </div>
-
-            <div class="border">
-                <h3>Lorem Ipsum</h3>
-                <p>Lorem Ipsum is simply dummy text.</p>
-                <button class="btn">Read More</button>
-            </div>
+            <!-- end blog -->
         </div>
-
+        <!-- end kiri -->
+        <!-- kanan -->
         <div class="kanan">
-            <h3>Category</h3>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Bootstrap</p>
-            <p>PHP</p>
+            <div class="jarak">
+                <h3>CATEGORY</h3>
+                <hr/>
+                <p><a href="#" class="undecor">HTML</a></p>
+                <p><a href="#" class="undecor">CSS</a></p>
+                <p><a href="#" class="undecor">BOOTSTRAP</a></p>
+                <p><a href="#" class="undecor">PHP</a></p>
+                <p><a href="#" class="undecor">MYSQL</a></p>
+                <p><a href="#" class="undecor">Jquery</a></p>
+                <p><a href="#" class="undecor">Ajax</a></p>
+            </div>
         </div>
-
+        <!-- end kanan -->
     </div>
 </div>
-
 <div class="footer">
-    <p>copyright 2021</p>
-</div>
-
-</body>
-</html>
+    <div class="jarak">
+        <p>copyright 2021 codekop all reserved</p>
+    </div>
+    </div>
+ </body>
+</HTML>
